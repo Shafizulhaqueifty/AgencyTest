@@ -1,0 +1,189 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .header .Nipro-brand {
+    font-size: 20px;
+  }
+
+  .nav-search .dropdown-menu {
+    width: 100%;
+  }
+
+  .team {
+    background: none;
+  }
+
+  .team .member {
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  }
+
+  .contact .card {
+    padding: 3rem 1rem;
+  }
+
+  .contact .card .enterprise {
+    width: 43%;
+    font-size: 18px;
+    top: -62px;
+    right: -30%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header .Nipro-brand {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #333333;
+  }
+
+  .banner .carousel-container {
+    text-align: center;
+    top: 74px;
+  }
+
+  .banner h2 {
+    font-size: 30px;
+  }
+
+  .team {
+    background: none;
+  }
+
+  .team .member {
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  }
+
+  .pricingTable .pricingTable-header>span {
+    width: 20%;
+    right: 186px;
+  }
+
+  .pricingTable .pricingTable-header>span.basic {
+    width: 11%;
+    right: 206px;
+  }
+
+  .pricingTable .pricingTable-header>span.platinum {
+    width: 18%;
+    right: 190px;
+  }
+
+  .contact .card {
+    padding: 3rem 1rem;
+  }
+
+  .contact .card .enterprise {
+    width: 33%;
+    font-size: 25px;
+    top: -68px;
+    right: -35%;
+
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header .Nipro-brand {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #333333;
+  }
+
+  .banner .carousel-control-next {
+    right: 75%;
+  }
+
+  .banner .carousel-control-prev {
+    left: -5%;
+  }
+
+  .banner .carousel-container {
+    text-align: center;
+    top: 74px;
+  }
+
+  .pricingTable .pricingTable-header>span {
+    width: 35%;
+    right: 92px;
+  }
+
+  .pricingTable .pricingTable-header>span.basic {
+    width: 20%;
+    right: 114px;
+  }
+
+  .pricingTable .pricingTable-header>span.platinum {
+    width: 35%;
+    right: 100px;
+  }
+
+  .contact .card {
+    padding: 3rem 1rem;
+  }
+
+  .contact .card .enterprise {
+    width: 24%;
+    font-size: 25px;
+    top: -68px;
+    right: -39%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .banner .carousel-control-next {
+    right: 77%;
+  }
+
+  .banner .carousel-control-prev {
+    left: -3%;
+  }
+
+  .contact .card .enterprise {
+    font-size: 27px;
+    width: 28%;
+  }
+}
+
+/* Extra large devices (Extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .banner p {
+    width: 50%;
+  }
+
+  .banner .carousel-control-next {
+    right: 78%;
+  }
+
+  .banner .carousel-control-prev {
+    left: -2%;
+  }
+
+  .pricingTable .pricingTable-header>span {
+    width: 39%;
+    right: 58px;
+  }
+
+  .pricingTable .pricingTable-header>span.basic {
+    width: 20%;
+    right: 78px;
+  }
+
+  .pricingTable .pricingTable-header>span.platinum {
+    width: 35%;
+    right: 63px;
+  }
+
+  .contact .card .enterprise {
+    width: 24%;
+  }
+}
+
+/* Big devices (Big desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .banner p {
+    width: 50%;
+  }
+}
